@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="common.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="RunAll(failed)">
+    <classes>
+      <class name="testcases.ChangePasswordTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="TC09"/>
+        </methods>
+      </class> <!-- testcases.ChangePasswordTest -->
+      <class name="testcases.RegisterTest">
+        <methods>
+          <include name="TC07"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="TC11"/>
+        </methods>
+      </class> <!-- testcases.RegisterTest -->
+      <class name="testcases.ResetPasswordTest">
+        <methods>
+          <include name="TC12"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.ResetPasswordTest -->
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="TC03"/>
+          <include name="beforeMethod"/>
+          <include name="TC05"/>
+          <include name="TC02"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- RunAll(failed) -->
+</suite> <!-- Failed suite [Suite] -->

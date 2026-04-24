@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0ee96bb-b9ee-4177-bb53-ca72cc7a4b56" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/Downloads/KTAuto_Sele_Java_Nhom09/KTAuto_Sele_Java_Nhom09/KTAuto_Sele_Java_Nhom09/KTAuto_Sele_Java_Nhom09" value="3C9GWB79pdTDJ4MWHwHmH5Bol5N" />
+      <entry key="_D:/downl/KTAuto_Sele_Java_Nhom09-20260405T014820Z-1-001nhom/KTAuto_Sele_Java_Nhom09" value="3Bv38fjcg9iOKlq4sYKxn9SMLV6" />
+      <entry key="_E:/KTAuto_Sele_Java_Nhom09" value="3BNmY0nkxzpeOQy2Krlo1RKThxz" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="25" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3BNmY0nkxzpeOQy2Krlo1RKThxz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.ExtentReport.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "TestNG.BookTicketTest.TC14.executor": "Run",
+    "TestNG.BookTicketTest.TC15.executor": "Run",
+    "TestNG.BookTicketTest.executor": "Run",
+    "TestNG.CancelTicketTest.TC16.executor": "Run",
+    "TestNG.CancelTicketTest.executor": "Run",
+    "TestNG.ChangePasswordTest.TC09.executor": "Run",
+    "TestNG.ChangePasswordTest.executor": "Run",
+    "TestNG.D:/downl/KTAuto_Sele_Java_Nhom09-20260405T014820Z-1-001nhom/KTAuto_Sele_Java_Nhom09/testng.xml.executor": "Run",
+    "TestNG.LoginTest.TC01.executor": "Run",
+    "TestNG.LoginTest.TC02.executor": "Run",
+    "TestNG.LoginTest.TC03.executor": "Run",
+    "TestNG.LoginTest.TC04.executor": "Run",
+    "TestNG.LoginTest.TC05.executor": "Run",
+    "TestNG.LoginTest.TC06.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.RegisterTest.TC08.executor": "Run",
+    "TestNG.RegisterTest.TC10.executor": "Run",
+    "TestNG.RegisterTest.TC11.executor": "Run",
+    "TestNG.RegisterTest.executor": "Run",
+    "TestNG.ResetPasswordTest.TC13.executor": "Run",
+    "TestNG.ResetPasswordTest.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Downloads/KTAuto_Sele_Java_Nhom09/KTAuto_Sele_Java_Nhom09/KTAuto_Sele_Java_Nhom09/KTAuto_Sele_Java_Nhom09",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/KTAuto_Sele_Java_Nhom09/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.D:/downl/KTAuto_Sele_Java_Nhom09-20260405T014820Z-1-001nhom/KTAuto_Sele_Java_Nhom09/testng.xml">
+    <configuration name="BookTicketTest.TC14" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="KTAuto_Sele_Java_Nhom09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.BookTicketTest" />
+      <option name="METHOD_NAME" value="TC14" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CancelTicketTest.TC16" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="KTAuto_Sele_Java_Nhom09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.CancelTicketTest" />
+      <option name="METHOD_NAME" value="TC16" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangePasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="KTAuto_Sele_Java_Nhom09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.ChangePasswordTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/downl/KTAuto_Sele_Java_Nhom09-20260405T014820Z-1-001nhom/KTAuto_Sele_Java_Nhom09/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="KTAuto_Sele_Java_Nhom09" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="KTAuto_Sele_Java_Nhom09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.BookTicketTest.TC14" />
+      <item itemvalue="TestNG.CancelTicketTest.TC16" />
+      <item itemvalue="TestNG.ChangePasswordTest" />
+      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.D:/downl/KTAuto_Sele_Java_Nhom09-20260405T014820Z-1-001nhom/KTAuto_Sele_Java_Nhom09/testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/downl/KTAuto_Sele_Java_Nhom09-20260405T014820Z-1-001nhom/KTAuto_Sele_Java_Nhom09/testng.xml" />
+        <item itemvalue="TestNG.ChangePasswordTest" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.CancelTicketTest.TC16" />
+        <item itemvalue="TestNG.BookTicketTest.TC14" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0ee96bb-b9ee-4177-bb53-ca72cc7a4b56" name="Changes" comment="" />
+      <created>1774337947888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774337947888</updated>
+      <workItem from="1775355559980" duration="803000" />
+      <workItem from="1775360935903" duration="16673000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

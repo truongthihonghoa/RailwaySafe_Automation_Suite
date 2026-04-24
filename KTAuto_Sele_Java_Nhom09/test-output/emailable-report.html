@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">RunAll</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">406.472</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">RunAll &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.ChangePasswordTest</td><td><a href="#m0">TC09</a></td><td rowspan="1">1775796042093</td><td rowspan="1">40872</td></tr><tr class="failedodd"><td rowspan="3">testcases.LoginTest</td><td><a href="#m1">TC02</a></td><td rowspan="1">1775795765180</td><td rowspan="1">13134</td></tr><tr class="failedodd"><td><a href="#m2">TC03</a></td><td rowspan="1">1775795782972</td><td rowspan="1">13492</td></tr><tr class="failedodd"><td><a href="#m3">TC05</a></td><td rowspan="1">1775795811919</td><td rowspan="1">41030</td></tr><tr class="failedeven"><td rowspan="2">testcases.RegisterTest</td><td><a href="#m4">TC07</a></td><td rowspan="1">1775795875809</td><td rowspan="1">17085</td></tr><tr class="failedeven"><td><a href="#m5">TC11</a></td><td rowspan="1">1775795935845</td><td rowspan="1">19952</td></tr><tr class="failedodd"><td rowspan="1">testcases.ResetPasswordTest</td><td><a href="#m6">TC12</a></td><td rowspan="1">1775796093295</td><td rowspan="1">22791</td></tr><tr><th colspan="4">RunAll &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testcases.BookTicketTest</td><td><a href="#m7">TC14</a></td><td rowspan="1">1775795960876</td><td rowspan="1">23143</td></tr><tr class="passedeven"><td><a href="#m8">TC15</a></td><td rowspan="1">1775795986273</td><td rowspan="1">20229</td></tr><tr class="passedodd"><td rowspan="1">testcases.CancelTicketTest</td><td><a href="#m9">TC16</a></td><td rowspan="1">1775796008441</td><td rowspan="1">31588</td></tr><tr class="passedeven"><td rowspan="3">testcases.LoginTest</td><td><a href="#m10">TC01</a></td><td rowspan="1">1775795742812</td><td rowspan="1">20563</td></tr><tr class="passedeven"><td><a href="#m11">TC04</a></td><td rowspan="1">1775795800878</td><td rowspan="1">9229</td></tr><tr class="passedeven"><td><a href="#m12">TC06</a></td><td rowspan="1">1775795857376</td><td rowspan="1">16675</td></tr><tr class="passedodd"><td rowspan="2">testcases.RegisterTest</td><td><a href="#m13">TC08</a></td><td rowspan="1">1775795898490</td><td rowspan="1">16936</td></tr><tr class="passedodd"><td><a href="#m14">TC10</a></td><td rowspan="1">1775795917579</td><td rowspan="1">16175</td></tr><tr class="passedeven"><td rowspan="1">testcases.ResetPasswordTest</td><td><a href="#m15">TC13</a></td><td rowspan="1">1775796121291</td><td rowspan="1">24449</td></tr></tbody>
+</table>
+<h2>RunAll</h2><h3 id="m0">testcases.ChangePasswordTest#TC09</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Change password success message is not displayed as expected expected [Your password has been updated] but found [Your password has been updated!]
+	at testcases.ChangePasswordTest.TC09(ChangePasswordTest.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.LoginTest#TC02</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Error: The error message displayed does not match the Excel requirements! expected [There was a problem with your login and/or errors exist in your form. ] but found [There was a problem with your login and/or errors exist in your form.]
+	at testcases.LoginTest.TC02(LoginTest.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.LoginTest#TC03</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Error message is not displayed as expected expected [There was a problem with your login and/or errors exist in your form.] but found [Invalid username or password. Please try again.]
+	at testcases.LoginTest.TC03(LoginTest.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.LoginTest#TC05</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Error: The TC05 error message does not match the Excel requirements! expected [You have used 4 out of 5 login attempts. After all 5 have been used, you will be unable to login for 15 minutes.] but found [Invalid username or password. Please try again.]
+	at testcases.LoginTest.TC05(LoginTest.java:139)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.RegisterTest#TC07</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Register success message is not displayed as expected expected [Thank you for registering your account] but found [Registration Confirmed! You can now log in to the site.]
+	at testcases.RegisterTest.TC07(RegisterTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.RegisterTest#TC11</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Password error message is not displayed as expected expected [Invalid password length.] but found [Invalid password length]
+	at testcases.RegisterTest.TC11(RegisterTest.java:139)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.ResetPasswordTest#TC12</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Form error message is not displayed as expected expected [The password reset token is incorrect or may be expired. Visit the forgot password page to generate a new one.] but found [Could not reset password. Please correct the errors and try again.]
+	at testcases.ResetPasswordTest.TC12(ResetPasswordTest.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.BookTicketTest#TC14</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.BookTicketTest#TC15</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.CancelTicketTest#TC16</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.LoginTest#TC01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testcases.LoginTest#TC04</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testcases.LoginTest#TC06</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testcases.RegisterTest#TC08</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testcases.RegisterTest#TC10</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testcases.ResetPasswordTest#TC13</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
